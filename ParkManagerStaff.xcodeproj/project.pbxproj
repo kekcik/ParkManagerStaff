@@ -139,7 +139,6 @@
 				2C6E7E2020208D1500E15F5F /* Frameworks */,
 				2C6E7E2120208D1500E15F5F /* Resources */,
 				2A5F7E813778A24C442236CA /* [CP] Embed Pods Frameworks */,
-				DA8F0EC8DA16F06FA51969D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,7 +203,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ParkManagerStaff/Pods-ParkManagerStaff-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ParkManagerStaff/Pods-ParkManagerStaff-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/QRCode/QRCode.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
@@ -219,22 +218,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParkManagerStaff/Pods-ParkManagerStaff-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DA8F0EC8DA16F06FA51969D6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParkManagerStaff/Pods-ParkManagerStaff-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParkManagerStaff/Pods-ParkManagerStaff-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E54892500F2AED58670C4AD9 /* [CP] Check Pods Manifest.lock */ = {
